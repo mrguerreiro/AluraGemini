@@ -26,7 +26,7 @@ section{
 }
 
 section input{
-    width: 30rem;
+    width: 100%;
     border: none;
     padding: 1rem;
     border-radius: 1.5rem;
@@ -59,7 +59,7 @@ section button:hover{
     }
 
     section input {
-        width: 100%; /* Ajusta o tamanho do input para caber na tela menor */
+        width: 100; /* Ajusta o tamanho do input para caber na tela menor */
         font-size: 1rem;
         padding: 1rem;
     }
@@ -82,7 +82,7 @@ section button:hover{
     }
 
     section input {
-        width: 100%; /* Input ocupa toda a largura da tela */
+        width:100%; /* Input ocupa toda a largura da tela */
         font-size: 0.9rem;
         padding: 0.8rem;
     }
@@ -102,7 +102,7 @@ section button:hover{
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: 100%; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */

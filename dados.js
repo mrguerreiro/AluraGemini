@@ -129,7 +129,7 @@ let dados = [
       { marca: 'Volkswagen', 
         modelo: 'Virtus', 
         placa: 'ABC-5432',
-        quilometragem: 38.000,
+        quilometragem: 38000,
         oleo: 'Shell 5W20'
        },
 
@@ -137,7 +137,7 @@ let dados = [
         marca: 'Chevrolet',
         modelo: 'Cobalt LTZ',
         placa: 'GEG-3720',
-        quilometragem: 123.500,
+        quilometragem: 123500,
         oleo: 'Mobil 0W20',
        }
 ];  
