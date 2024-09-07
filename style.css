@@ -59,8 +59,9 @@ section button:hover{
     }
 
     section input {
-        width: 90%; /* Ajusta o tamanho do input para caber na tela menor */
+        width: 100%; /* Ajusta o tamanho do input para caber na tela menor */
         font-size: 1rem;
+        padding: 1rem;
     }
 
     section button {
@@ -83,6 +84,7 @@ section button:hover{
     section input {
         width: 100%; /* Input ocupa toda a largura da tela */
         font-size: 0.9rem;
+        padding: 0.8rem;
     }
 
     section button {
