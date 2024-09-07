@@ -51,6 +51,53 @@ section button:hover{
     box-shadow: 0 4px 8px rgba(0. 0. 0. 0.2);
 }
 
+/* Responsividade para dispositivos móveis (telas menores que 768px) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+
+    section input {
+        width: 90%; /* Ajusta o tamanho do input para caber na tela menor */
+        font-size: 1rem;
+    }
+
+    section button {
+        width: 90%;
+        padding: 0.8rem;
+    }
+
+    .resultados-pesquisa {
+        width: 95%; /* Faz com que a caixa de resultados ocupe quase toda a largura da tela */
+    }
+}
+
+/* Responsividade para telas muito pequenas (telas menores que 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }
+
+    section input {
+        width: 100%; /* Input ocupa toda a largura da tela */
+        font-size: 0.9rem;
+    }
+
+    section button {
+        width: 100%; /* Botão também ocupa toda a largura */
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+
+    .resultados-pesquisa {
+        width: 100%; /* Resultados ocupam toda a largura da tela */
+        height: auto; /* A altura vai se ajustar ao conteúdo */
+    }
+}
+
+
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
