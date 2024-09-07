@@ -136,7 +136,7 @@ let dados = [
        {
         marca: 'Chevrolet',
         modelo: 'Cobalt LTZ',
-        placa: 'GEG3720',
+        placa: 'GEG-3720',
         quilometragem: 123.500,
         oleo: 'Mobil 0W20',
        }
